@@ -48,6 +48,12 @@ export const constantRouterMap = [
         name: 'http',
         component: () => import('@/views/info/http'),
         meta: { title: 'http', icon: 'table' }
+      },
+      {
+        path: 'vulnerability',
+        name: 'vulnerability',
+        component: () => import('@/views/info/vulnerability'),
+        meta: { title: 'vulnerability', icon: 'table' }
       }
     ]
   },
