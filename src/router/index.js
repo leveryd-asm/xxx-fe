@@ -54,6 +54,12 @@ export const constantRouterMap = [
         name: 'vulnerability',
         component: () => import('@/views/info/vulnerability'),
         meta: { title: 'vulnerability', icon: 'table' }
+      },
+      {
+        path: 'dirsearch',
+        name: 'dirsearch',
+        component: () => import('@/views/info/dirsearch'),
+        meta: { title: 'dirsearch', icon: 'table' }
       }
     ]
   },
